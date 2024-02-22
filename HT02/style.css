@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    text-decoration: none;
+}
+
+.center{
+    padding-left: calc(50% - 25vw);
+    padding-right: calc(50% - 25vw);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.input {
+    margin: 10px;
+    border: 2px solid black;
+    width: 50vw;
+    height: 2vh;
+}
+
+.reviews {
+    border: 2px solid black;
+    height: 50vh;
+}
+ 
+.review {
+    size: 20pt;
+}
