@@ -18,6 +18,8 @@ for (let i = 0; i < localStorage.length; i++) {
             div.appendChild(new_h);
             new_h.appendChild(new_btn);
             new_btn.addEventListener("click", () => {
+                array.splice(j, 1);
+                localStorage.setItem(localStorage.key(i), JSON.stringify(array));
                 new_h.remove();
             })
         }
